@@ -18,6 +18,7 @@ namespace DesktopLrc
              
              
             trbFontSize.Value = Settings.fontSize;
+            chkHMode.Checked = Settings.horizontalMode;
             this.StartPosition = FormStartPosition.CenterScreen;
             this.TopMost = true;
           

@@ -22,3 +22,4 @@ Thunbs.db
 obj/
 [Rr]elease*/
 _ReSharper*/
+.vs/

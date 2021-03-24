@@ -6,11 +6,11 @@
     <UseWindowsForms>true</UseWindowsForms>
     <ApplicationIcon>app.ico</ApplicationIcon>
     <AssemblyName>桌面歌词</AssemblyName>
+    <NoWin32Manifest>true</NoWin32Manifest> 
   </PropertyGroup>
-
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <DebugType>none</DebugType>
-    <DebugSymbols>false</DebugSymbols>
+    <DebugSymbols>false</DebugSymbols> 
   </PropertyGroup>
 
   <ItemGroup>

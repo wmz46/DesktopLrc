@@ -31,8 +31,7 @@ namespace DesktopLrc
             InitializeComponent();
               
             //背景改为灰色，避免透明时字体锯齿过于明显
-            this.BackColor = Color.DarkGray;
-            notifyIcon1.Icon = this.Icon;  
+            this.BackColor = Color.DarkGray; 
             //双缓存处理
             this.DoubleBuffered = true;
             this.TransparencyKey = this.BackColor;
